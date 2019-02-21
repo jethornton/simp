@@ -17,7 +17,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     entry_points={
-        'gui_scripts': ['simp=simp.simp:Example',],
+        'gui_scripts': ['simp=simp.simp:main',],
     },
 )
 

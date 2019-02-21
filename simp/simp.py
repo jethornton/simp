@@ -15,7 +15,10 @@ class Example(QWidget):
         self.setWindowTitle('Simple')
         self.show()
 
-if __name__ == '__main__':
+def main():
     app = QApplication(sys.argv)
     ex = Example()
     sys.exit(app.exec_())
+
+if __name__ == '__main__':
+    main()
